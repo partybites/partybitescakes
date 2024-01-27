@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Party Bites</title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!--slick slider stylesheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+  <!-- slick slider -->
+
+  <link rel="stylesheet" href="css/slick-theme.css" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <style>
+    .btn {
+      background-color: rgb(245, 198, 197);
+      border: 5px;
+      color: white;
+      padding: 12px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: rgb(255, 255, 255);
+    }
+    </style>
+
+</head>
+
+<body class="sub_page">
+
+  <div class="main_body_content">
+
+    <div class="hero_area">
+      <!-- header section strats -->
+      <header class="header_section">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="index.html">
+              Party Bites
+            </a>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""> </span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"> About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="chocolate.html">Cakes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="testimonial.html">Testimonial</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- end header section -->
+    </div>
+
+
+    <!-- contact section -->
+
+    <section class="contact_section layout_padding">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5 col-lg-4 offset-md-1 offset-lg-2">
+            <div action="" class="form_container">
+              <div class="heading_container">
+                <h2>
+                  Contact Us
+                </h2>
+              </div>
+              <div class="contactform">
+              <form action="">
+                
+                  <input type="text" id="name" placeholder="Full Name ">
+                
+          
+                  <input type="text" id="mobile" placeholder="Phone number">
+               
+             
+                  <input type="email" id="mail" placeholder="Email">
+                
+            
+                  <input type="text" id="Message" class="message-box" placeholder="Message">
+              
+             
+                  <div class="btn" onclick="whatsapp" > 
+                    <a href="https://wa.me/919566704136?text=" class="whatsapp">
+                      CONTACT NOW
+                    </div>
+             
+              </form>
+              </div>
+            </div>
+          <script>
+            function whatsapp(){
+              var name = document.getElementById("name").value;
+              var mobile = document.getElementById("mobile").value;
+              var mail = document.getElementById("mail").value;
+              var message = document.getElementById("message").value;
+
+              var whatsappurl="https://wa.me/919566704136?text="+"Name of the Customer:"+name+"%0a"+"Mobile No:"+mobile+"%0a"+"Email ID:"+mail+"%0a"+"Message:"+message+"%0a"
+
+              window.open(whatsappurl,"_blank").focus();
+            }
+          </script>
+          </div>
+          
+          <div class="col-md-6  px-0">
+            <div class="map_container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1156.3904208269853!2d80.06338739341629!3d12.867916299275317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f65d47a5b5ab%3A0x6da42f43a24cb9d9!2sAnna%20Nagar!5e0!3m2!1sen!2sin!4v1704784829997!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end contact section -->
+
+
+    <!-- info section -->
+    <section class="info_section layout_padding2">
+      <div class="container">
+        <div class="row info_form_social_row">
+          <div class="col-md-8 col-lg-9">
+            <div class="info_form">
+              <form action="">
+                <input type="email" placeholder="Enter your email">
+                <button>
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3">
+
+            <div class="social_box">
+              <a href="https://www.whatsapp.com/channel/0029VaA5BO38kyyTYkmAjv2I">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.instagram.com/bitesparty26?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.facebook.com/sethusethu.raman.503?mibextid=ZbWKwL">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row info_main_row">
+          <div class="col-md-6 col-lg-3">
+            <div class="info_links">
+              <h4>
+                Menu
+              </h4>
+              <div class="info_links_menu">
+                <a href="index.html">
+                  Home
+                </a>
+                <a href="about.html">
+                  About
+                </a>
+                <a href="chocolate.html">
+                  Cakes
+                </a>
+                <a href="testimonial.html">
+                  Testimonial
+                </a>
+                <a href="contact.html">
+                  Contact us
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="info_insta">
+              <h4>
+                order
+              </h4>
+              <div class="insta_box">
+                <div class="img-box">
+                  <img src="images/insta-img.png" alt="">
+                </div>
+                <p>
+                  order before 2 to 3 days
+                </p>
+              </div>
+              <div class="insta_box">
+                <div class="img-box">
+                  <img src="images/insta-img.png" alt="">
+                </div>
+                <p>
+                  delivery only in chennai
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="info_detail">
+              <h4>
+                Company
+              </h4>
+              <p class="mb-0">
+                Thank you for choosing Party Bites as your destination for indulgence. We look forward to being a part of your special moments, making each visit a delightful experience worth savoring.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h4>
+              Contact Us
+            </h4>
+            <div class="info_contact">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  No.337, MG Nagar Station Road, Urappakkam, Chennai
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  +91 95667 04136 / +91 96774 20180
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope"></i>
+                <span>
+                  partybites26@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end info_section -->
+
+  </div>
+
+  <!-- footer section -->
+  <footer class="container-fluid footer_section">
+    <div class="container">
+      <div class="col-md-11 col-lg-8 mx-auto">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By Party Bites
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- slick slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
